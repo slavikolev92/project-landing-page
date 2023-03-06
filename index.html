@@ -7,35 +7,77 @@
     </head>
 
     <body>
-        <div class="header">
-            <img src="images/mountain-logo.jpg" class="logo">
-            
-            <ul>
-                <li><a href="">Header Link 1</a></li>
-                <li><a href="">Header Link 2</a></li>
-                <li><a href="">Header Link 3</a></li>
-            </ul>
-        </div>
+        <nav class="navbar">
+            <div class="container">
+                <img src="images/mountain-logo.jpg" alt ="logo mountain" class="logo">
+                
+                <ul>
+                    <li><a href="">Header Link 1</a></li>
+                    <li><a href="">Header Link 2</a></li>
+                    <li><a href="">Header Link 3</a></li>
+                </ul>   
+            </div>
+        </nav>
         
-        <h2 class="text">Some Random Information</h2>
+        <header class="header">
+            <div class="container">
+                <div class="leftside-element">
+                    <h1 class="header-text">This website is awesome</h1>
+                    <p class="header-text">This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</p>
+                    <button>Sign up</button>
+                </div>
+                
+                <div class="rightside-element">
+                    <div class="box"></div>
+                    <!-- <img src="images/mountain-logo.jpg"> -->
+                </div>
+            </div>
+        </header>
 
-        <div class="content">            
-            <div class="image-container">
-                <img src="images/chilli.png" class="content-image">
-                <p class="text">This is some subtext under the illustration or image (1)</p>
+        <section class="white-section">
+            <div class="container container-2">
+                <h2 class="text">Some Random Information</h2>
+                
+                <div class="image-container">
+                    <div class="box"></div>
+                    <p class="text">This is some subtext under the illustration or image</p>
+                </div>
+                <div class="image-container">
+                    <div class="box"></div>
+                    <p class="text">This is some subtext under the illustration or image</p>
+                </div>
+                <div class="image-container">
+                    <div class="box"></div>
+                    <p class="text">This is some subtext under the illustration or image</p>
+                </div>
+                <div class="image-container">
+                    <div class="box"></div>
+                    <p class="text">This is some subtext under the illustration or image</p>
+                </div>
             </div>
-            <div class="image-container">
-                <img src="images/chilli.png" class="content-image">
-                <p class="text">This is some subtext under the illustration or image (2)</p>
+        </section>
+
+        <section class="gray-section">
+            <div class="container quote">
+                <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. maybe it's just filing up space, or maybe people will actually read it. Who knows? All i know is that it looks nice.</p>
+                <p class="quote-author">Thor, God of Thunder</p>
             </div>
-            <div class="image-container">
-                <img src="images/chilli.png" class="content-image">
-                <p class="text">This is some subtext under the illustration or image (3)</p>
+        </section>
+
+        <section class="white-section">
+            <div class="container call-to-action">
+                <div>
+                    <h2>Call to action! It's time!</h2>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <button>Sign up!</button>
             </div>
-            <div class="image-container">
-                <img src="images/chilli.png" class="content-image">
-                <p class="text">This is some subtext under the illustration or image (4)</p>
+        </section>
+
+        <footer class="dark-section">
+            <div class="container">
+                <p>Copyright © The Odin Project 2021</p>
             </div>
-        </div>
+        </footer>
     </body>
 </html>
